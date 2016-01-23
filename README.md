@@ -21,6 +21,7 @@ Run `npm-cache-install install [options]` instead of `npm install`, it will:
 
 1. Windows is not supported for now
 2. Does not differentiate node version and node architecture (if node version changes, please clean cache directory manually)
-3. Not tested with npm@3
+3. Bad support for `peerDependency`, which might cause problems.
+4. Not tested with npm@3
 
 Issues and PRs are welcomed
