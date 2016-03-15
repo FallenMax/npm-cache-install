@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 var commands = {
-  install: require('./lib/install.js')
+  install: require('./lib/install.js'),
+  clean: require('./lib/clean.js')
 }
 
 var args = process.argv.slice(2)

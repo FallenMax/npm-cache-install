@@ -1,6 +1,6 @@
 {
   "name": "npm-cache-install",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "accelerate `npm install` by caching dependency",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,23 @@
     "npm-cache-install": "index.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/FallenMax/npm-cache-install"
+    "type": "git",
+    "url": "https://github.com/FallenMax/npm-cache-install"
   },
   "preferGlobal": true,
-  "os" : [ "darwin", "linux" ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
   "author": "FallenMax@gmail.com",
-  "keywords": [ "npm", "install", "cache"],
+  "keywords": [
+    "npm",
+    "install",
+    "cache"
+  ],
   "license": "MIT",
   "dependencies": {
-    "semver": "^5.1.0"
+    "semver": "^5.1.0",
+    "string-hash": "1.1.0"
   }
 }
