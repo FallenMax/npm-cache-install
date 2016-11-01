@@ -1,3 +1,5 @@
+[DEPRECATED] Just use [Yarn](https://yarnpkg.com/) instead.
+
 # npm-cache-install
 
 Offline `npm install`, using locally cached packages.
